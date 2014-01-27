@@ -47,25 +47,25 @@ int main()
     system ("CLS");
     cout << " " <<endl;
     cout << "========== Dialekste Sxima ==========" << endl;
-    Sleep(1000);
+    Sleep(500);
     cout << " 1: Eytheia" << endl;
-    Sleep(500);
+    Sleep(200);
     cout << " 2: Tetragono" << endl;
-    Sleep(500);
+    Sleep(200);
     cout << " 3: Orthogonio Paralilogrammo" << endl;
-    Sleep(500);
+    Sleep(200);
     cout << " 4: Kuklos" << endl;
     cout << " " << endl;
-    Sleep(500);
+    Sleep(200);
     cout << "========== Other Options ==========" << endl;
-    Sleep(500);
+    Sleep(200);
     cout << " 5: Credit Section" << endl;
-    Sleep(500);
+    Sleep(200);
     cout << " 6: Help! " <<endl;
-    Sleep(500);
+    Sleep(200);
     cout << " 7: Exit! " <<endl;
     cout << " " << endl;
-    Sleep(500);
+    Sleep(200);
     cout << " Doste thn epilogh sas  " ;
     cin >> e;
     
@@ -73,13 +73,17 @@ int main()
     // Entoles gia epilogh 1 ( eytheia ) //
     //Dokimastikes entoles //
     {
-    cout << "Eytheia" << endl;
+    cout << "====== Eytheia ======" << endl;
+    cout << " " << endl;
     cout << "Doste prwto shmeio: x1 y1" << endl;
     cin >> x1>>y1;
+    cout << " " << endl;
     cout << "Doste deytero shmeio: x2 y2" << endl;
     cin >> x2>>y2;
+    cout << " " <<endl;
     cout << "Dialekste xarakthra grammhs * # ; +" << endl;
     cin >> ch;
+    cout << " " << endl;
     cout << "Dwste megethos grammhs " << endl;
     cin >> pnts;
 	// ... calculate line parameters
@@ -103,7 +107,7 @@ int main()
                
                
                
-               
+               system ("pause");
                
     } 
     else if (e==2) 
@@ -111,6 +115,8 @@ int main()
      //Dokimastikes entoles //
     {
     cout << "Tetragono"  << endl;
+    
+    cout << "Doste pleura tetragonou" << endl;
                
                
                
@@ -192,6 +198,3 @@ int main()
     return 0;    
     
     }
-    
-    
-    
