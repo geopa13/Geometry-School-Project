@@ -46,45 +46,45 @@ int main()
     // Main Menu //
     system ("CLS");
     cout << " " <<endl;
-    cout << "========== Dialekste Sxima ==========" << endl;
+    cout << "Dialekste Sxima" << endl;
     Sleep(500);
-    cout << " 1: Eytheia" << endl;
+    cout << " 1: Straight Line" << endl;
     Sleep(200);
-    cout << " 2: Tetragono" << endl;
+    cout << " 2: Square" << endl;
     Sleep(200);
-    cout << " 3: Orthogonio Paralilogrammo" << endl;
+    cout << " 3: Rectangle" << endl;
     Sleep(200);
-    cout << " 4: Kuklos" << endl;
+    cout << " 4: Circle" << endl;
     cout << " " << endl;
     Sleep(200);
-    cout << "========== Other Options ==========" << endl;
+    cout << "Other Options" << endl;
     Sleep(200);
-    cout << " 5: Credit Section" << endl;
+    cout << " 5: About Developers/Coders" << endl;
     Sleep(200);
     cout << " 6: Help! " <<endl;
     Sleep(200);
     cout << " 7: Exit! " <<endl;
     cout << " " << endl;
     Sleep(200);
-    cout << " Doste thn epilogh sas  " ;
+    cout << " Type the option you want, and then press ENTER  " ;
     cin >> e;
     
     if (e==1)
     // Entoles gia epilogh 1 ( eytheia ) //
     //Dokimastikes entoles //
     {
-    cout << "====== Eytheia ======" << endl;
+    cout << "Eytheia" << endl;
     cout << " " << endl;
-    cout << "Doste prwto shmeio: x1 y1" << endl;
+    cout << "Give coordinates of first spot: x1 y1" << endl;
     cin >> x1>>y1;
     cout << " " << endl;
-    cout << "Doste deytero shmeio: x2 y2" << endl;
+    cout << "Give coordinated of second spot: x2 y2" << endl;
     cin >> x2>>y2;
     cout << " " <<endl;
-    cout << "Dialekste xarakthra grammhs * # ; +" << endl;
+    cout << "Choose line character * # ; +" << endl;
     cin >> ch;
     cout << " " << endl;
-    cout << "Dwste megethos grammhs " << endl;
+    cout << "Choose line size " << endl;
     cin >> pnts;
 	// ... calculate line parameters
 	step = 1.0 / (pnts - 1);
@@ -114,9 +114,8 @@ int main()
     // Entoles gia epilogh 2 ( Tetragono ) //
      //Dokimastikes entoles //
     {
-    cout << "Tetragono"  << endl;
+    cout << "Square"  << endl;
     
-    cout << "Doste pleura tetragonou" << endl;
                
                
                
@@ -128,7 +127,7 @@ int main()
     // Entoles gia epilogh 3 ( Orthogonio paralilogrammo ) //
      //Dokimastikes entoles //
      {
-     cout << "Orthogonio paralilogrammo" << endl;
+     cout << "Rectangle" << endl;
                     
                     
                     
@@ -139,7 +138,7 @@ int main()
     // Entoles gia epilogh 4 ( Kyklos ) //
      //Dokimastikes entoles //
      {
-     cout << "Kyklos" << endl;
+     cout << "Circle" << endl;
                     
                     
                     
@@ -152,24 +151,7 @@ int main()
       else if (e==5)
      // Entoles gia ta credits //
 { 
-     cout << " " << endl;
-     Sleep(500);
-     cout << "            ========== Programming and Coding ==========" << endl;
-     cout << " " << endl;
-     Sleep(500);
-     cout << "                    Kathigitis: Antonis Neiros" << endl;
-     Sleep(500);
-     cout << "                    Mathiis: Panagiotis Vasilaros" << endl;
-     Sleep(500);
-     cout << "                    Mathitis: Giorgos Lafiatis" <<endl;
-     Sleep(500);
-     cout << "                    Mathitis: Giorgos Papapanagiotou" << endl;
-     cout << " " << endl;
-     Sleep(500);
-     cout << "                    ========== Designing ==========" << endl;
-     Sleep(500);
-     cout << "                      Mathitis: Giorgos Lafiatis" << endl;
-     cout << " " << endl;
+     
      system ("pause");
 
      
@@ -177,10 +159,7 @@ int main()
      else if (e==6)
      //Entoles gia help//
      {
-     cout << " " << endl;
-     cout << "If you need help , contact us via e-mail : example@example.com";
-     cout << " " << endl;
-     cout << " " << endl;
+    
      system ("pause");
      }
      
