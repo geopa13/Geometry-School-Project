@@ -5,7 +5,13 @@
 int main 
 {
     using namespace std;
-    /* MAIN PROGRAM */
+    int choice;
+    float x1,y1,x2,y2;
+    
+    
+    
+    /* MAIN MENU */
+    
     system("cls");
     cout << "Geometric Shapes Options" << endl;
     Sleep(200);
@@ -31,6 +37,25 @@ int main
     Sleep(100);
     cout << "Type the number of the option you want";
     cout << " and press ENTER" << endl;
+    cin >> choice;
+    
+    /* END OF MAIN MENU */
+    
+    
+    /* Option Menu */
+    
+    if (choice==1)
+    {
+       cout <<"Straight Line" << endl;
+       cout << " " << endl;
+       cout << "Give the coordinates of the first spot: x1 y1" << endl;
+       cin >> x1>>y1;
+       cout << "Give the coordinates of the seconds spot: x2 y2" << endl;
+       cin >> x2>>y2;
+       
+       
+    
+    
     
     
     
