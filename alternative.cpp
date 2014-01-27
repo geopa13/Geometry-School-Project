@@ -2,11 +2,12 @@
 #include <cmath>
 #include <windows.h>
 
-int main 
+int main ()
 {
     using namespace std;
     int choice;
     float x1,y1,x2,y2;
+    char ch;
     
     
     
@@ -52,9 +53,11 @@ int main
        cin >> x1>>y1;
        cout << "Give the coordinates of the seconds spot: x2 y2" << endl;
        cin >> x2>>y2;
+       cout << "Choose line character * # ; +" << endl;
+       cin >> ch;
        
        
-    
+}
     
     
     
@@ -68,4 +71,4 @@ int main
     
     system("pause");
     return 0;
-    }
+}
