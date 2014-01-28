@@ -78,7 +78,7 @@ int main()
     cout << "Give coordinates of first spot: x1 y1" << endl;
     cin >> x1>>y1;
     cout << " " << endl;
-    cout << "Give coordinated of second spot: x2 y2" << endl;
+    cout << "Give coordinates of second spot: x2 y2" << endl;
     cin >> x2>>y2;
     cout << " " <<endl;
     cout << "Choose line character * # ; +" << endl;
